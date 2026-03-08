@@ -1,0 +1,8 @@
+[package]
+name = "nyc-tlc-2025-datafusion"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+datafusion = { version = "52.2.0", features = ["parquet", "sql", "datetime_expressions"] }
+tokio = { version = "1", features = ["full"] }
